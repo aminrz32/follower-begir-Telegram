@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="telegram.hidden.hiddentelegrambase.MainActivity"
+    android:background="#58f64c">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:textColor="#043e00"
+        android:hint="رمز ورود"
+        android:layout_margin="20dp"
+        android:textSize="18dp"
+        android:text="12345"
+        android:phoneNumber="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ذخیره"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="#043e00"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="رمز ورود به تلگرام :"
+        android:id="@+id/textView"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
